@@ -84,7 +84,7 @@ def update(mat,size,i,j):
 def visualize_tree(newick_str):
     """
     可视化函数：包含鲁棒性处理。
-    如果 Biopython 或环境不兼容，程序将优雅地提示而非崩溃。
+    如果 Biopython 或环境不兼容，程序将输出提示。
     """
     print("\n" + "="*40)
     print("进化树可视化（Phylogenetic Tree Visualization）")
