@@ -79,7 +79,9 @@ pip install -r requirements.txt
 - **方式 A（推荐）：** 
 
   ```bash
-  python main.py < test.txt
+  Windows (CMD): python src/main.py < tests/test1.txt
+  Windows (PowerShell): Get-Content tests/test1.txt | python src/main.py
+  Linux/Mac: python3 src/main.py < tests/test1.txt
   ```
 
 - **方式 B（交互式）：** 
